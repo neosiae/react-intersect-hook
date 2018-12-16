@@ -12,6 +12,6 @@ export default function useIntersect (callback, element, options = {}) {
   useEffect(() => {
     const observer = new window.IntersectionObserver(callback, options)
     observer.observe(element.current)
-    return () => observer.disconnect()
+    return () => observer.unobserve()
   })
 }
