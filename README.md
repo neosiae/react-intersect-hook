@@ -1,1 +1,1 @@
-# react-on-intersect
+# react-intersect-hook
