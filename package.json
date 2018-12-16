@@ -1,0 +1,50 @@
+{
+  "name": "react-on-intersect",
+  "version": "1.0.0",
+  "description": "Do something when two elements intersect",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode=development",
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neosiae/react-on-intersect.git"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "react-hook",
+    "intersect",
+    "intersect-hook",
+    "intersection-observer"
+  ],
+  "author": "Denis Kotlica",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neosiae/react-on-intersect/issues"
+  },
+  "homepage": "https://github.com/neosiae/react-on-intersect#readme",
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "peerDependencies": {
+    "react": "^16.7.0-alpha.2",
+    "react-dom": "^16.7.0-alpha.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.4",
+    "eslint-plugin-react-hooks": "0.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.7.0-alpha.2",
+    "react-dom": "^16.7.0-alpha.2",
+    "standard": "^12.0.1",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  }
+}
