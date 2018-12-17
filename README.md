@@ -4,6 +4,8 @@
 
 Do something when two elements intersect. 
 
+> Hooks are an upcoming feature that lets you use state and other React features without writing a class. They’re currently in React v16.7.0-alpha.
+
 ## Installation
 `npm install react-intersect-hook`
 
@@ -16,15 +18,21 @@ import useIntersect from 'react-intersect-hook'
 export default function Example () {
   const element = useRef(null)
 
-  useIntersect(() => {
-    console.log('Hello, Intersect!')
-  }, element)
+  function onEnter () {
+    console.log('Hi!')
+  }
+
+  function onExit () {
+    console.log('Bye!')
+  }
+
+  useIntersect({ onEnter, onExit, element })
 
   return (
     <>
       <h1
         ref={element}
-        style={{ marginTop: '110vh' }}
+        style={{ marginTop: '110vh', textAlign: 'center', fontSize: '4em' }}
       >
         Hello, Intersect!
       </h1>
@@ -35,16 +43,22 @@ export default function Example () {
 
 ## API
 
-### useIntersect(callback, element, [options])
+### useIntersect({ onEnter, [onExit], element, [options] })
 
-#### callback
-A function which is called when two elements intersect.
+#### onEnter
+A function which is called when elements start intersecting. 
+
+#### onExit
+A function which is called when elements stop intersecting.
 
 #### element
 Target element to watch.
 
 #### options
 See [Intersection Observer#Parameters](https://developer.mozilla.org/en-US/docs/Web/API/IntersectionObserver/IntersectionObserver#Parameters) for available options.
+
+## Prior art
+[on-intersect](https://github.com/yoshuawuyts/on-intersect)
 
 ## Read more 
 [Intersection Observer API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API)

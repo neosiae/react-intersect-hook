@@ -5,9 +5,15 @@ import useIntersect from '../src/index'
 export default function Example () {
   const element = useRef(null)
 
-  useIntersect(() => {
-    console.log('Hello, Intersect!')
-  }, element)
+  function onEnter () {
+    console.log('Hi!')
+  }
+
+  function onExit () {
+    console.log('Bye!')
+  }
+
+  useIntersect({ onEnter, onExit, element })
 
   return (
     <>
