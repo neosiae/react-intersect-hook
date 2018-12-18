@@ -45,10 +45,10 @@ export default function Example () {
 
 ### useIntersect({ onEnter, [onExit], element, [options] })
 
-#### onEnter
+#### onEnter([entry])
 A function which is called when elements start intersecting. 
 
-#### onExit
+#### onExit([entry])
 A function which is called when elements stop intersecting.
 
 #### element

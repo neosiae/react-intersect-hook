@@ -26,9 +26,9 @@ export default function useIntersect ({ onEnter, onExit, element, options }) {
   function handler (entries) {
     const entry = entries[0]
     if (entry.isIntersecting) {
-      onEnter()
+      onEnter(entry)
     } else {
-      onExit()
+      onExit(entry)
     }
   }
 
