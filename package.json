@@ -1,6 +1,6 @@
 {
   "name": "react-on-intersect",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Do something when two elements intersect",
   "main": "dist/index.js",
   "scripts": {
