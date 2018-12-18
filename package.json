@@ -2,13 +2,15 @@
   "name": "react-on-intersect",
   "version": "1.0.0",
   "description": "Do something when two elements intersect",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "start": "webpack-dev-server --mode=development",
     "standard": "standard",
     "jest": "npx jest",
     "jest:w": "npx jest --watch",
-    "test": "jest"
+    "test": "jest",
+    "transpile": "npx babel src -d dist",
+    "prepublish": "npm run transpile"
   },
   "repository": {
     "type": "git",
@@ -36,6 +38,7 @@
     "react-dom": "^16.7.0-alpha.2"
   },
   "devDependencies": {
+    "@babel/cli": "^7.2.0",
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.2.0",
     "@babel/preset-react": "^7.0.0",

@@ -1,6 +1,6 @@
 # react-intersect-hook 
 
-[![stability-unstable](https://img.shields.io/badge/stability-unstable-yellow.svg)] [![Build Status](https://travis-ci.com/neosiae/react-intersect-hook.svg?branch=master)](https://travis-ci.com/neosiae/react-intersect-hook) [![dependency status](https://depsjs.xyz/status/github/neosiae/react-intersect-hook/status.svg)](https://depsjs.xyz/github/neosiae/react-intersect-hook) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com) 
+![stability-unstable](https://img.shields.io/badge/stability-unstable-yellow.svg) [![Build Status](https://travis-ci.com/neosiae/react-intersect-hook.svg?branch=master)](https://travis-ci.com/neosiae/react-intersect-hook) [![dependency status](https://depsjs.xyz/status/github/neosiae/react-intersect-hook/status.svg)](https://depsjs.xyz/github/neosiae/react-intersect-hook) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com) 
 
 Do something when two elements intersect. 
 
