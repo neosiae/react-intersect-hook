@@ -5,6 +5,9 @@
   "main": "dist/index.js",
   "scripts": {
     "start": "webpack-dev-server --mode=development",
+    "build": "webpack --mode production",
+    "deploy": "gh-pages -d example/build",
+    "publish:gh": "npm run build && npm run deploy",
     "standard": "standard",
     "jest": "npx jest",
     "jest:w": "npx jest --watch",
@@ -46,6 +49,7 @@
     "babel-eslint": "^10.0.1",
     "babel-jest": "^23.6.0",
     "babel-loader": "^8.0.4",
+    "gh-pages": "^2.0.1",
     "html-webpack-plugin": "^3.2.0",
     "jest": "^23.6.0",
     "react": "^16.7.0-alpha.2",
