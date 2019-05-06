@@ -1,10 +1,8 @@
 # react-on-intersect 
 
-[![npm version](https://img.shields.io/npm/v/react-on-intersect.svg)](https://www.npmjs.com/package/react-on-intersect) ![stability-unstable](https://img.shields.io/badge/stability-unstable-yellow.svg) [![Build Status](https://travis-ci.com/neosiae/react-on-intersect.svg?branch=master)](https://travis-ci.com/neosiae/react-on-intersect) [![dependency status](https://depsjs.xyz/status/github/neosiae/react-intersect-hook/status.svg)](https://depsjs.xyz/github/neosiae/react-intersect-hook) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com) 
+[![npm version](https://img.shields.io/npm/v/react-on-intersect.svg)](https://www.npmjs.com/package/react-on-intersect) [![Build Status](https://travis-ci.com/neosiae/react-on-intersect.svg?branch=master)](https://travis-ci.com/neosiae/react-on-intersect) [![dependency status](https://depsjs.xyz/status/github/neosiae/react-intersect-hook/status.svg)](https://depsjs.xyz/github/neosiae/react-intersect-hook) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com) 
 
 React hook to do something when two elements intersect.
-
-> Hooks are an upcoming feature that lets you use state and other React features without writing a class. They’re currently in React v16.7.0-alpha.
 
 ## Demo
 [Infinite Scroll](https://neosiae.github.io/react-on-intersect/)

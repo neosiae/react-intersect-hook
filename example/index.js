@@ -55,6 +55,4 @@ export default function Example () {
   )
 }
 
-const root = ReactDOM.createRoot(document.getElementById('root'))
-
-root.render(<Example />)
+ReactDOM.render(<Example />, document.getElementById('root'))
