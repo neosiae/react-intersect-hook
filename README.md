@@ -1,8 +1,8 @@
 # react-on-intersect 
 
-[![npm version](https://img.shields.io/npm/v/react-on-intersect.svg)](https://www.npmjs.com/package/react-on-intersect) [![Build Status](https://travis-ci.com/neosiae/react-on-intersect.svg?branch=master)](https://travis-ci.com/neosiae/react-on-intersect) [![dependency status](https://depsjs.xyz/status/github/neosiae/react-intersect-hook/status.svg)](https://depsjs.xyz/github/neosiae/react-intersect-hook) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com) 
+[![npm version](https://img.shields.io/npm/v/react-on-intersect.svg)](https://www.npmjs.com/package/react-on-intersect) [![Build Status](https://travis-ci.com/neosiae/react-on-intersect.svg?branch=master)](https://travis-ci.com/neosiae/react-on-intersect) [![dependency status](https://depsjs.xyz/status/github/neosiae/react-intersect-hook/status.svg)](https://depsjs.xyz/github/neosiae/react-intersect-hook) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com)
 
-React hook to do something when two elements intersect.
+> ## Deprecated in favor of [react-intersection-observer](https://github.com/thebuilder/react-intersection-observer)
 
 ## Demo
 [Infinite Scroll](https://neosiae.github.io/react-on-intersect/)
